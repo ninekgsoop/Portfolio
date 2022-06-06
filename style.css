@@ -5,7 +5,7 @@ COMMON
 ********************/
 
 body{
-    font-family: "monospace",sans-serif;
+    font-family: "Broadway";
 }
 
 .font-primary{
@@ -13,6 +13,66 @@ body{
 }
 
 .title-icon {
+    font: "Broadway"
     font-size: 20px;
     font-weight: bold;
+}
+
+/********************
+
+ABOUT
+
+*********************/
+
+#About {
+    font-family: 'Broadway';
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#About img {
+ border-radius: 50%;
+ width: 120px;
+ height: 130px;
+ margin-bottom: 10px;
+ 
+}
+
+#About .name {
+    border-color: black;
+    border-width: 2px;
+    font-family: 'Broadway';
+    font: 19px;
+}
+
+#About .vocation {
+    font-family: 'Broadway';
+    font-size: 17px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+#About .skills {
+    font-family: 'Broadway';
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+#About .email{
+    font-family: 'Broadway';
+    margin-top: 14px;
+    font-size: 30px;
+}
+
+#About .icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#About .icons a{
+    color: black
 }
