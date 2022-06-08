@@ -1,8 +1,8 @@
-/*******************
+/***********************************************************************
 
 COMMON
 
-********************/
+***********************************************************************/
 
 body{
     font-family: "Broadway";
@@ -13,66 +13,132 @@ body{
 }
 
 .title-icon {
-    font: "Broadway"
+    font: "Broadway";
     font-size: 20px;
     font-weight: bold;
 }
 
-/********************
+/***********************************************************************
+
+NAVBAR
+
+************************************************************************/
+
+.navbar {
+    font-family: "Broadway";
+    height: 40px;
+}
+
+a.navbar-brand {
+    font-size: 33px;
+    text-align: left;
+    text-shadow: 12px;
+
+}
+
+.nav-item {
+font-size: 21px;
+margin-top: 18px;
+}
+
+/********************************************************************
 
 ABOUT
 
-*********************/
+*********************************************************************/
 
 #About {
     font-family: 'Broadway';
-    margin: 60px auto;
-    max-width: 400px;
+    margin: 30px auto;
+    max-width: 600px;
     text-align: center;
 }
 
 #About img {
- border-radius: 50%;
- width: 120px;
- height: 130px;
- margin-bottom: 10px;
+ border-radius: 40%;
+ height: 222px;
+
+ margin-bottom: 15px;
+ margin-top: 15px;
  
 }
 
 #About .name {
-    border-color: black;
-    border-width: 2px;
+
     font-family: 'Broadway';
-    font: 19px;
+    font-size: 45px;
 }
 
 #About .vocation {
     font-family: 'Broadway';
-    font-size: 17px;
+    font-size: 22px;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 
 }
 
 #About .skills {
     font-family: 'Broadway';
-    font-size: 14px;
-    color: black;
-    margin-bottom: 10px;
+    font-size: 16px;
+    color: red;
+    margin-bottom: 22px;
 
 }
 
 #About .email{
     font-family: 'Broadway';
     margin-top: 14px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #About .icons {
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 10px;
+    font-size: 50px;
 }
 
 #About .icons a{
     color: black
+}
+
+/********************************************************************
+
+PROJECTS
+
+********************************************************************/
+#Projects {
+    font-family: "Broadway";
+    
+}
+
+#Projects .row{
+    height: 370px;
+}
+
+#Projects h2 {     
+    text-align:center;
+    font-size: 55px;
+}
+
+#Projects .card img {
+    height: 333px;
+    width:fit-content;
+}
+
+#Projects .card-title {
+    font-size:33px ;
+
+    margin-bottom: 25px;
+}
+
+#Projects .card-text {
+    font-size:21px ;
+;
+}
+
+
+#Projects .btn{
+    font-size: 31px;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
